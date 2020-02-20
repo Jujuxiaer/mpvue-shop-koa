@@ -9,7 +9,11 @@
     "pages/brandList/main",
     "pages/topicdetail/main",
     "pages/newgoods/main",
-    "pages/search/main"
+    "pages/search/main",
+    "pages/goods/main",
+    "pages/order/main",
+    "pages/addaddress/main",
+    "pages/addressSelect/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
