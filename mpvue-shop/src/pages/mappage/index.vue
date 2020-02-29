@@ -44,7 +44,6 @@ export default {
         iconHeight: 32,
         success: function (data) {
           // 成功回调
-          console.log('data', data)
           let marker = [
             {
               id: data[0].id,

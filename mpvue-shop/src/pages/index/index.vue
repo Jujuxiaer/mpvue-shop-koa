@@ -180,7 +180,6 @@ export default {
       myAmapFun.getRegeo({
         success: function (data) {
           // 成功回调
-          console.log('data', data)
           // ........
         },
         fail: function (info) {
@@ -192,7 +191,6 @@ export default {
     },
     async getData(){
       const data = await get('/index/index')
-      console.log('data', data);
       this.banner = data.banner
       this.channel = data.channel
       this.brandList = data.brandList

@@ -13,13 +13,15 @@
     "pages/goods/main",
     "pages/order/main",
     "pages/addaddress/main",
-    "pages/addressSelect/main"
+    "pages/addressSelect/main",
+    "pages/categroylist/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "网易严选",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#666",
